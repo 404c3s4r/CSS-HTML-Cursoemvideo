@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping TAG</title>
+    <style>
+       body {
+    background-color: rgb(255, 178, 100);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    }
+
+header {
+    text-align: center;
+    background-color: rgb(236, 220, 116);
+    width: 350px;
+    margin: 0 auto; /* Isso centralizará a caixa horizontalmente */
+    border-radius: 10px;
+    box-shadow: 2px -1px 1px 1px rgba(0, 0, 0, 0.241);
+
+}
+
+    nav {
+        margin: 5px;
+    }
+    nav > a {
+        padding: 0px;
+        text-decoration: none;
+        color: blue;
+    
+    }
+
+    nav > a:hover {
+        text-decoration: underline;
+        color: black;
+    }
+
+
+    main {
+        
+        background-color: white;
+        padding: 10px; 
+        text-align: justify;
+        border-radius: 10px;
+    }
+
+    article > aside {
+        background-color: rgb(236, 247, 107);
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin: 0px;
+    }
+
+    p {
+        text-align: justify;
+    }
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Github</a>
+            <a href="">Linkedin</a>
+            <a href="">Medium</a>
+            <a href="">Instagram</a>
+        </nav>
+    </header>
+    <main> 
+        <section id="Assuntos">
+        
+        </section>
+        <section id="historia do brasil">
+            <article>
+                <h2>Historia do brasil</h2>
+                <aside><p>Comentário feito pelo historiador Roberto Oliveira</p></aside>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente culpa perferendis blanditiis ducimus suscipit, magni architecto impedit unde temporibus aut odio, minus rerum tempora, libero repellendus quod nisi fugit non?</p>
+            </article>
+            <article>
+                <aside><p>Comentário feito pelo historiador José da Silva</p></aside>       
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quidem ut minus? A laboriosam facilis aut vitae harum, quod quasi. Suscipit eius expedita earum sint asperiores hic et nihil! Quidem?</p> 
+            </article>
+        </section>
+    
+    
+    </main>
+    
+    <footer>
+            Este é o meu rodapé
+    </footer>
+</body>
+</html>

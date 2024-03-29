@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div e subclasse </title>
+    <style>
+        div { color: rgb(93, 150, 150);}
+        
+        div > p {
+           display: none; 
+        }
+
+        div:hover > p {
+            display: block;
+            color: green;
+        }
+                                             
+    </style>
+</head>
+<body>
+    <div>
+        Passe o mouse aqui
+        <p>Mensagem secreta</p>
+    </div>
+
+</body>
+</html>

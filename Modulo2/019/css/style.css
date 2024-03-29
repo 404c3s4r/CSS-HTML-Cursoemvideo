@@ -1,0 +1,13 @@
+h1, p {
+    text-align: center; /* Centraliza horizontalmente o texto dentro do elemento */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Garante que o corpo ocupa 100% da altura da tela */
+    background-color:mediumslateblue;
+    margin: 0; /* Remove as margens padrão do corpo */
+}

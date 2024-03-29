@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body { 
+    background-color: rgb(219, 219, 46);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Adicione o ponto e vírgula aqui */
+}
+
+h1#principal {
+    color: rgb(222, 32, 32);
+    text-align: center;
+}
+h1#secundario {
+    color: purple;
+}
+
+h1#terciario {
+    color: purple;
+}
+p {
+    text-align: justify;
+}

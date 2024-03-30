@@ -1,34 +1,47 @@
-
 # HTML & CSS 
 
-Exercicios e estudos de HTML & CSS do curso em video. O intuito do aprendizado partiu quando quis aprender como funcionava a parte web de front-end. Logo, decidi fazer o curso. 
+Exercises and studies of HTML & CSS from the Curso em Vídeo. The intention of the learning arose when I wanted to learn how the front-end web part worked. Therefore, I decided to take the course.
 
 
-## Rode os projetos de cada modulo 
+##  Run the projects of each module 
 
-Acesse aqui os projetos de cada modulo 
+Access here the projects of each module 
 
-Projeto do Módulo 1: 
+Module 1 Project: 
 ```bash
     https://robertocoliver.github.io/HTML_CSS/Modulo1/019/index.html
 ```
-Projeto do Módulo 2: 
+Module 2 Project:
 ```bash
     https://robertocoliver.github.io/HTML_CSS/Modulo2/035/android.html
 ```
-Projeto do Módulo 3: 
-
+Module 3 Project:
 ```bash
     https://robertocoliver.github.io/HTML_CSS/Modulo3/index.html
 
 ```
-Projeto do Módulo 4:
-
+Module 4 Project:
 ```bash
     https://robertocoliver.github.io/HTML_CSS/Modulo4/index.html
 ```
 
-Projeto do Módulo 4:
+Module 4 Project:
 ```bash
     https://robertocoliver.github.io/HTML_CSS/Modulo5/index.html
 ```
+
+Module 5 Project:
+```bash
+    https://robertocoliver.github.io/HTML_CSS/Modulo5/index.html
+```
+    
+## 🔗 My portfolio
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/robertocoliver/)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://medium.com/@robertocoliver)
+
+
+## Direitos de uso 
+Usage Rights
+The material used for learning in this project was from Prof. Gustavo Guanabara regarding the rights of use of the content. Visit [https://github.com/gustavoguanabara/html-css] for more information. 
+
+

@@ -1,0 +1,33 @@
+Crie um elemento <div> com a classe .container que tenha largura de 80% da largura da tela e altura de 300 pixels. Dentro desse contêiner, adicione outro elemento <div> com a classe .conteudo que tenha largura de 200 pixels, altura de 100 pixels e esteja centralizado verticalmente dentro do contêiner.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralização vertical/horizontal</title>
+    <style>
+        .container {
+            width: 80%;
+            height: 300px;
+            background-color: aqua;
+            position: relative;
+        }
+        .conteudo {
+            width: 200px;
+            height: 100px;
+            background-color: blue;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="conteudo"></div>
+    </div>
+    
+</body>
+</html>

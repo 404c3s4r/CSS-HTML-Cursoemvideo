@@ -17,7 +17,7 @@ Module 2 Project:
 ```
 Module 3 Project:
 ```bash
-    https://robertocoliver.github.io/HTML_CSS/Modulo3/index.html
+    https://robertocoliver.github.io/HTML_CSS/Modulo3/ex38/index.html
 
 ```
 Module 4 Project:

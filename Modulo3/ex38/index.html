@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     
@@ -14,15 +13,26 @@
            
         }
         
-        body  {
-            background-color: bisque;
-            min-height: 100vh;
-        }
+        
         :root{
             --fonte-principal: "Passion One", cursive; 
             --fonte-texto: "Sriracha", cursive;
             --fonte-rodape: Verdana, Geneva, Tahoma, sans-serif;
         } 
+        
+    
+        
+        body  {
+            background-color: bisque;
+            min-height: 100vh;
+        }
+       
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        
         header {
             background-color: black;
             font-family: var(--fonte-principal);
@@ -30,39 +40,37 @@
             text-align: center;
             margin: 0 auto;
         }
+        
         header > h1 {
             color: white;
-            padding-top: 50px;
+            padding-top: 30px;
             
             font-variant: small-caps;
             margin:auto;
+            font-size: 10vw;
         }
+        
         header > p {
-            padding-bottom: 50px;
+            padding-bottom: 30px;
             color: white;
             
         }
-        a {
-            color: white;
-            text-decoration: none;
-        }
-        
         
         section {
             padding-top: 10vh;
             padding-bottom: 10vh;
-            line-height: 2em;
-            padding-left: 30px;
+            padding-left: 25px;
+            font-family: var(--fonte-texto);
+            padding-bottom: 2em;
+            padding-top: 2em;
         }
         
-        section > p {
-            background-color: rgba(0, 0, 0, 0.202);
-            width: 400px;
-        }
+        
         a:hover {
             text-decoration: underline ;
             font-weight: bolder;
         }
+        
         footer {
             text-align: center;
             background-color: black;
@@ -73,26 +81,50 @@
         }
 
 
-        .imagem {
-            background-color: rgb(222, 122, 0);
-            color: white;
-        } 
-        .normal {
-            background-color: white;
-            color: black;
+       
+        section.normal {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
         }
 
+        
+        section.normal > p {
+            display: inline-block;
+            background-color: rgba(255, 255, 255, 0.171);
+            font-size: 3.5vw;
+            line-height: 2em;
+        }
+        
+    
+        section.imagem > p {
+            display: inline-block;
+            background-color: rgba(0, 0, 0, 0.389);
+            color: white;
+            font-size: 3.5vw;
+            line-height: 2em;
+            background-size: cover;
 
+        }
 
+        #image01{
+            background-image: url(imagens/background00.jpg);
+            background-position: right center;
+            background-attachment: fixed;
+            
 
+        }
+        #image02{
+            background-image: url(imagens/background002.jpg);
+            background-position: right bottom;
+            background-attachment: fixed;
+            
 
-
-
-
-
-
+            
+        }
 
     </style>
+
+
 </head>
 <body>
     <header>
@@ -111,7 +143,7 @@
                 Vou dizer tudo em poesia. <br>
             </p>
         </section>
-        <section class="imagem">
+        <section class="imagem" id="image01">
             <p>
                 Não é mais como era antes <br>
                 É tudo abreviado <br>
@@ -142,7 +174,7 @@
             </p>
         </section>
 
-        <section class="imagem">
+        <section class="imagem" id="image02">
             <p>
                 Tenho saudade das cartas <br>
                 Escritas com a própria mão <br>
@@ -176,4 +208,4 @@
         <p>Site criado por <a href="https://github.com/robertocoliver">Roberto Oliveira</a></p>
     </footer>
 </body>
-</html>
+</html> 

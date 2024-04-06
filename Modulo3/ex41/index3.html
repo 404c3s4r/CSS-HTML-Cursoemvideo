@@ -1,29 +1,36 @@
-<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas grandes</title>
+    
     <style>
-       
-       body{
+        
+        body{
         background-color: rgb(98, 177, 132);
-       }
-       
-       table {
-        width: 500px;
-        border-collapse: collapse;    
         }
+
         
         table {
             width: 500px;
+            border-collapse: collapse;
+        }
+        
+        thead > tr > th {
+            position: sticky;
+            top: -1px; 
+
         }
         
         .cabecalho {
             background-color: rgb(169, 54, 54);
             font-size: 1.5em;
         }
-        
+
+        thead > tr > th {
+            background-color: blue;
+        }
+
         td, th {
             border: 2px solid rgba(0, 0, 0, 0.219);
             text-align: left;
@@ -38,6 +45,7 @@
         tbody > tr:nth-child(even){
             background-color: white;
         }
+
         tfoot > tr {
             background-color: white;
         }
@@ -45,11 +53,11 @@
         tbody > tr:nth-child(odd) {
             background-color: lightgrey;
         }
+        
         .num {
             text-align: right;
         }
-        
-       
+
     </style>
 </head>
 <body>

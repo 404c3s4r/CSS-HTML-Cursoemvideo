@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas grandes</title>
+    <style>
+       table {
+        width: 500px;
+        background-color: blanchedalmond;
+        border-collapse: collapse;    
+        }
+        .cabecalho {
+            background-color: rgb(162, 0, 187);
+            text-align: center;
+        }
+
+        td, th {
+            border: 2px solid rgba(0, 0, 0, 0.219);
+            text-align: left;
+        }
+        .num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com tabelas grandes</h1>
+    <table>
+        <thead class="cabecalho">
+            <tr>
+                <th colspan="2" class="cabecalho">Distribuição da população brasileira por região</th>
+            </tr>
+            <tr>
+                <th>REGIÃO</th>
+                <th>POPULAÇÃO</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sudeste</td>
+                <td class="num">84.847.187</td>
+            </tr>
+            <tr>
+                <td>Nordeste</td>
+                <td class="num">54.644.582</td>
+            </tr>
+            <tr>
+                <td>Sul</td>
+                <td class="num">29.933.315</td>
+            </tr>
+            <tr>
+                <td>Norte</td>
+                <td class="num">17.349.619</td>
+            </tr>
+            <tr>
+                <td>Centro-Oeste</td>
+                <td class="num">16.287.809</td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <th>Total de habitantes</th>
+                    <td class="num">118.215.325</td>
+                </tr>
+            </tfoot>
+        </tbody>
+    
+    </table>
+</body>
+</html>

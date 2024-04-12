@@ -1,0 +1,25 @@
+O atributo sandbox="sandbox"
+<iframe src="form.html" frameborder="1" sandbox="sandbox">
+
+Usado para aplicar restrições de segurança ao conteúdo carregado dentro de um elemento <iframe>. As restrições incluem: 
+
+allow-forms: Permite que o conteúdo do iframe envie formulários.
+allow-same-origin: Permite que o conteúdo do iframe acesse recursos do mesmo domínio que o documento pai.
+allow-scripts: Permite que o conteúdo do iframe execute scripts.
+
+Se você especificar apenas sandbox, todas essas restrições serão aplicadas automaticamente.
+
+> Entendendo Referer
+
+O cabeçalho de requisição HTTP Referer contém o endereço da página web anterior do qual a página atual requerida foi chamada. O Referer permite aos servidores identificar de onde as pessoas estão visitando eles e pode usar esses dados para análise, log e cacheamento otimizado, por exemplo.
+
+
+EXEMPLO PRÁTICO 
+
+--> <iframe src="form.html" frameborder="1" sandbox="sandbox" referrerpolicy="no-referrer-when-downgrade"> <--
+
+referrerpolicy="no-referrer-when-downgrade" Diz se o referer no cabeçalho HTTP estará presente ou não quando sai de um site A com HTTPS para um site B com HTTP. 
+
+referrerpolicy="no-referrer" Navegador não envia o cabeçalho Referer em nenhuma circunstância.
+
+referrerpolicy="unsafe-url"  Envia o cabeçalho Referer completo.

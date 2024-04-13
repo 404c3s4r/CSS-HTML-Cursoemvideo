@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto redes sociais</title>
+    <link rel="icon" href="pacote-d013/favicon.ico" type="image/x-icon">
+    <style>
+        html, body {
+            height: 100vh;
+            width: 100vw;
+            margin: 0;
+            padding: 0;
+            background: black;
+        }
+        body {
+            background: url(pacote-d013/imagens/fundo-madeira.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-attachment: fixed;
+
+        }
+        main {
+            position: relative;
+            height: 100vh;
+        }
+        #telefone {
+            background-color: blue;
+            height: 627px;
+            width: 310px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: url(pacote-d013/imagens/frame-iphone.png);
+            background-repeat: no-repeat;
+            
+        }
+        #tela{
+            position: relative;
+            top: 82px;
+            left: 24px;
+        
+            width: 264px;
+
+            height: 469px;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <section id="telefone"> 
+            <iframe src="home.html" frameborder="0" id="tela"></iframe>
+            
+        </section>
+    </main>
+</body>
+</html>

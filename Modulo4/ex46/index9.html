@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos color, range e file em HTML</title>
+</head>
+<body>
+    <h1>Exemplos de formulário</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+           <label for="icolor">Cor:</label>
+           <input type="color" name="color" id="icolor" value="#D97D4C">
+        </p>
+        <p>
+            <label for="isat">Satisfação:</label>
+            <input type="range" name="Satisfação" id="isat" min="0"  max="5" value="0">
+        </p>
+        <p>
+            <label for="ifile">Arquivo:</label>
+            <input type="file" name="arquivo" id="ifile">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

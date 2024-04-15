@@ -1,0 +1,25 @@
+/* Estilos para impressoras */
+@charset "UTF-8";
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header > h1 {
+    display: none;
+}
+
+body {
+    line-height: 1.5em;
+    font-size: 1.5em;
+}
+
+
+menu {
+    display: none;
+}
+
+
+article::after {
+    content: 'Este artigo foi impresso através do site xxx-xxx'
+}

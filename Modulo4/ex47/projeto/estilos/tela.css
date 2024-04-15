@@ -1,0 +1,63 @@
+/* Estilos para tela */
+@charset "UTF-8";
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+body {
+    font-size: 1.5em;
+    margin: auto;  
+    width: 100vw; 
+}
+
+
+
+header > h1 {
+    text-align: center;
+}
+
+
+
+
+menu li {
+    display: inline-block;
+    background-color: crimson;
+    padding: 10px;
+  
+}
+
+menu li:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    width: 500px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

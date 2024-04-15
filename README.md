@@ -46,14 +46,21 @@ Module 5 Project:
 ```bash
     https://robertocoliver.github.io/HTML_CSS/Modulo5/index.html
 ```
+
+
+### Reference
+
+- [Exercises GitHub Repository](https://github.com/gustavoguanabara/html-css)
+- [HTML & CSS Course (YouTube)](https://www.youtube.com/watch?v=E6CdIawPTh0)
+
+
+
     
 ## 🔗 My portfolio
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/robertocoliver/)
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://medium.com/@robertocoliver)
 
 
-## Direitos de uso 
-Usage Rights
+
+### Usage Rights
 The material used for learning in this project was from Prof. Gustavo Guanabara regarding the rights of use of the content. Visit [https://github.com/gustavoguanabara/html-css] for more information. 
-
-

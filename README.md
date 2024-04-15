@@ -1,7 +1,6 @@
-# HTML & CSS 
+<h1 align="center">HTML & CSS </h1>
 
-Exercises and studies of HTML & CSS from the Curso em Vídeo. The intention of the learning arose when I wanted to learn how the front-end web part worked. Therefore, I decided to take the course.
-
+<p align="center"><i>Exercises and studies of HTML & CSS from the Curso em Vídeo. The intention of the learning arose when I wanted to learn how the front-end web part worked. Therefore, I decided to take the course..</i></p>
 
 ##  Run the projects of each module 
 

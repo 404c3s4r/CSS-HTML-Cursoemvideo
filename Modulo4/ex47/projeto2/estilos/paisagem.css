@@ -1,2 +1,9 @@
-/* paisagem */
-@charset 'UFT-8';
+/* paisagem (deitado ) screen and (orientation: landscape) */
+@charset "UTF-8";
+
+
+
+body {
+    background-image: url(../imagens/cev-landscape.jpg);
+    background-position: left bottom;
+}

@@ -1,2 +1,91 @@
 @charset "UTF-8";
-/* Para o restante das mídias */
+/* Para o restante das mídias
+Mobile devices – 320px — 480px. ( não precisa, devido ao mobile first ) 
+iPads, Tablets – 481px — 768px.
+Small screens, laptops – 769px — 1024px.
+Desktops, large screens – 1025px — 1200px.
+Extra large screens, TV – 1201px, and more.
+
+
+
+
+*/
+
+@media print {
+    body {
+        font-size: 1.5em;
+        background: url("../imagens/back-print.jpg");
+       
+        }
+    #iprint{
+        display: block;
+        margin: auto;
+        }
+    
+    #iphone {
+        display: none;
+        }
+    
+    main::after {
+       
+        content: "Impresso do site: @robertocoliver";
+        text-decoration: overline;
+        }
+    
+    main {
+        width: 80vw;
+        border: 2px solid black;
+        }
+
+    }   
+
+
+@media screen and (min-width:481px) and (max-width: 768px) {
+    body {
+        background: url("../imagens/back-tablet.jpg");
+    
+    }
+    #iphone {
+        display: none;
+    }
+    #itablet {
+        display: block;
+        margin: auto;
+    }
+
+} 
+
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    
+    body {
+        background: url("../imagens/back-pc.jpg");
+    }
+    
+    #iphone{
+        display: none;
+    }
+    
+    #ipc {
+        display: block;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1200px) {
+    body {
+        background: url("../imagens/back-tv.jpg");
+    }
+    #ipc {
+        display: none;
+    }
+    #itv {
+        display: block;
+        margin: auto;
+    }
+    #iphone {
+        display: none;
+    }
+}
+
+

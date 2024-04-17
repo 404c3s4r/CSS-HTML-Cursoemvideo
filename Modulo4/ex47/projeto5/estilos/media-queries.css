@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* 
+Para o restante das mídias
+Mobile devices – 320px — 480px. ( não precisa, devido ao mobile first ) 
+iPads, Tablets – 481px — 768px.
+Small screens, laptops – 769px — 1024px.
+Desktops, large screens – 1025px — 1200px.
+Extra large screens, TV – 1201px, and more. 
+*/
+
+@media screen and (min-width:768px) {
+    #imenu {
+        display: none;
+    }
+
+    #imenu2 {
+        display: block;
+        
+    }
+
+    menu > ul > li {
+        display: inline-block;  
+        
+    }
+    menu > ul > li > a {
+        background-color: chartreuse;
+    }
+    main {
+        width: 768px;
+    }
+
+} 

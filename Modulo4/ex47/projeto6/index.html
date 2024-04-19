@@ -12,50 +12,48 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <main>
         <section id="login">
             <div id="imagem">
 
             </div>
-            <div onclick="respons()"  id="formulario">
+            <div id="formulario">
                 <h1>Login</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias earum explicabo sed qui odit assumenda et itaque quasi dicta magni! Iure ut consectetur expedita fuga facilis repellat pariatur perspiciatis vitae.
 
-                <p>Seja bem vindo(a) novamente</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora aspernatur culpa error, possimus amet officiis eligendi! Nihil architecto modi quibusdam dignissimos! Quidem, est! Mollitia nam deserunt dicta error iusto quae.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore perferendis temporibus quisquam illo dolorum ipsum pariatur tempore ratione autem, sequi ea repudiandae eum molestiae? Placeat, harum aliquam. Molestias, sed repudiandae.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellat eveniet cupiditate vel perferendis explicabo, eum velit iusto culpa beatae natus iure error et distinctio, aut aliquid, excepturi exercitationem. Maiores.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias earum explicabo sed qui odit assumenda et itaque quasi dicta magni! Iure ut consectetur expedita fuga facilis repellat pariatur perspiciatis vitae.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, obcaecati iste voluptate officia velit ex placeat eos illum culpa nesciunt, reprehenderit dolore officiis accusantium perspiciatis provident debitis labore sunt dolorem!</p>
+                </p>
+                
                
                 <form action="login.php" method="post">
                     <div id="itable">
                         <span class="material-symbols-outlined">face</span>
                         <input id="ilogin" type="email" name="login" placeholder="Seu email" required autocomplete="on">
-                        <label id=ilogin for="">Login: </label>
+                        <label id=login for="ilogin">Login: </label>
                     </div>
+                    
                     <div id="itable">
                         <span class="material-symbols-outlined">
                             key
                             </span>
                         <input id="ipassword" type="password" name="password" placeholder="Sua senha" required autocomplete="on">
-                        <label id="ipassword" for="">Senha: </label>
+                        
+                        <label id="password" for="ipassword">Senha: </label>
 
                     </div>
                     <input id="ibotao" type="submit" value="Enviar">
+                    <a href="#">Esqueci a senha</a>
                 </form>
             </div>
         </section>
     </main>
     <script>
-           
-    function menuclick() {
-        var menu = document.getElementById("imenu2");
-        if (window.innerWidth >= 990) {
-            
-            
-    }   
-}
+        function mudouTamanho() {
+            if (window.innerWidth >= 990) {
+                formulario.style.display = 'block'
+            } 
+             
+        }
     </script>
 </body>
 </html>

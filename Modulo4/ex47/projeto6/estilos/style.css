@@ -13,7 +13,7 @@
 
 body {
     background-color: #5f2c82;
-    background-attachment: fixed;
+   
 }
 main {
     position: relative;
@@ -25,9 +25,9 @@ main {
 
 
 section#login {
-    width: 300px;
-    height: 500px;
-    background-color: rgb(188, 15, 15);
+    width: 320px;
+    height: 530px;
+    background-color: white;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -35,10 +35,15 @@ section#login {
     border-radius: 20px;
     box-sizing: border-box;
     overflow: hidden;
-
+    box-sizing: border-box;
     transition: width .4s, height .1s;
     transition-timing-function: ease;
 }
+
+label {
+    display: none;
+}
+
 
 
 
@@ -61,6 +66,53 @@ section#login {
     background-size: cover;
     background-position: right center;
 }
+
+
+#ibotao {
+    background-color: #4CAF50; /* Cor de /fundo */
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remover borda */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Cursor ao passar por cima */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+
+a {
+    background-color: rgb(226, 255, 245);
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #4CAF50;
+}
+
+
+#itable { 
+    background-color: #5f2c82;
+    margin-top:  3px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    
+
+#ibotao:hover {
+    background-color: #153115;
+}
+
 
 .material-symbols-outlined {
     font-variation-settings:

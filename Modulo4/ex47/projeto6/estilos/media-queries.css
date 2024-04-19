@@ -1,68 +1,37 @@
 @charset "UTF-8";
 
-/* 
-Para o restante das mídias
-Mobile devices – 320px — 480px. ( não precisa, devido ao mobile first ) 
-iPads, Tablets – 481px — 768px.
-Small screens, laptops – 769px — 1024px.
-Desktops, large screens – 1025px — 1200px.
-Extra large screens, TV – 1201px, and more. 
-*/
-
-
-@media screen and (min-width:768px) and (max-width:990px){
+@media screen and (min-width:591px) and (max-width:992px){
     
     * {
         box-sizing: border-box;
     }
     
-    section#login {
-        width: 90vw;
-        background-color: white;
-        
-    }
-    
-    
     
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
+    
+    section#login {
+        width: 90vw;
+        background-color: white;
+    }
 
 
     #formulario {
+        display: block;
         background-color: white;
         float: right;
-        width: 50vw;   
+        width: 50%;
         
     }
     
     
     #imagem {
         float: left;
-        width: 40vw;
-        height: 100vh;
+        width: 50%;
+        height: 100%;
         background-position: center center;
     }
 
 }   
 
-
-@media screen and (min-width:990px){
-    
-    
-    section#login {
-        width: 992px;
-        
-    
-    }
-    #formulario {
-        float: left;
-        width: 400px;
-    }
-    #imagem {
-        float: right;
-        width: 45vw;
-        height: 100vh;
-        background-position: center center;
-    }
-}

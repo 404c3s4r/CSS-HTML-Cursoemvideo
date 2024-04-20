@@ -42,9 +42,9 @@ Module 4 Project:
    https://robertocoliver.github.io/HTML_CSS/Modulo4/ex45/index.html
 ```
 
-Module 5 Project:
+Module 4/2 Project:
 ```bash
-    https://robertocoliver.github.io/HTML_CSS/Modulo5/index.html
+   https://robertocoliver.github.io/HTML_CSS/Modulo4/ex47/projeto6/index.html
 ```
 
 ### Reference

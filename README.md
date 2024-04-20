@@ -47,6 +47,21 @@ Module 4/2 Project:
    https://robertocoliver.github.io/HTML_CSS/Modulo4/ex47/projeto6/index.html
 ```
 
+## Future Studies
+> Introduction to Flexbox <br>
+> Directions and axes<br>
+> Packaging and flow<br>
+> Alignments on axes<br>
+> Centering with Flexbox<br>
+> Pack alignment<br>
+> Anatomy of flexbox items<br>
+> Base size of items<br>
+> Can grow or shrink<br>
+> Simplifying with Flex<br>
+> Menu with Flexbox<br>
+> Menu with Flexbox
+
+
 ### Reference
 
 - [Exercises GitHub Repository](https://github.com/gustavoguanabara/html-css)

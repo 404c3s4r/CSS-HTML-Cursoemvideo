@@ -1,31 +1,26 @@
 @charset "UTF-8";
 
-@media screen and (min-width:591px) and (max-width:992px){
-    
+@media screen and (min-width:600px) and (max-width:991px) {
     * {
         box-sizing: border-box;
     }
-    
-    
+
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
-    
     section#login {
         width: 90vw;
         background-color: white;
     }
-
+    
 
     #formulario {
         display: block;
         background-color: white;
         float: right;
         width: 50%;
-        
     }
-    
-    
+
     #imagem {
         float: left;
         width: 50%;
@@ -33,5 +28,17 @@
         background-position: center center;
     }
 
-}   
+    /* Estilos específicos para tablets */
+    #ilogin {
+        width: calc(100% - 51px);
+        border-radius: 10px;
+        padding: 2px;
+    }
 
+    #ipassword {
+        
+        width: calc(100% - 50px);
+        
+
+    }
+}

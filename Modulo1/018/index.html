@@ -7,10 +7,17 @@
 </head>
 <body>
     <h1>Trabalhando com hospedagem local de vídeos</h1>
+    <!-- Elemento <video> para exibir vídeos -->
+    <!-- O atributo 'poster' especifica uma imagem de visualização do vídeo -->
+    <!-- O atributo 'controls' adiciona controles de reprodução ao vídeo -->
+
+    <!-- type="video/mp4" indica tipo MIME-->
     <video width="500" poster="istockphoto-93214254-1024x1024.jpg" controls>
         <source src="videos/pexels-mikhail-nilov-7710031 (1080p).mp4" type="video/mp4">
         <source src="videos/pexels-mikhail-nilov-7710031-_1080p_.webm" type="video/webm">
-        Seu navegador não suporta nenhum dos nossos formatos.
+        
+        <!-- Mensagem caso o navegador não suporte nenhum dos formatos definidos em source-->
+        Seu navegador não suporta nenhum dos nossos formatos. 
     </video>
 </body>
 </html>

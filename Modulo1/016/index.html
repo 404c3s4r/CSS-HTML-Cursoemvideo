@@ -7,7 +7,19 @@
 </head>
 <body>
     <h1>Exercício imagens dinâmicas</h1>
+     <!-- Tag: 
+        
+        <picture> Envolve um conjunto de fontes de imagem ( sources )
+        <picture> é possível definir vários <sources>, cada um com uma resolução através do atributo media 
+        
+        type é um atributo de <source> indica o tipo MIME da imagem type="image/png".
+        srcset é um atributo de <source> para passar a imagem com sua respectiva resolução.  
     
+        um img definido dentro de <picture> indica que uma imagem será exibida caso nenhum dos <source> seja atendida 
+    
+    -->
+
+
         <picture>
             <source media="(max-width: 700px)" srcset="imagens/300X300.png" type="image/png">
             <source media="(max-width: 1000px)" srcset="imagens/700x700.png" type="image/png">
@@ -17,3 +29,12 @@
         </picture>
 </body>
 </html>
+
+
+
+    
+    
+    
+    
+    
+    

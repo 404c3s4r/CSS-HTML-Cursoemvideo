@@ -26,25 +26,25 @@
 
 Module 1 Project: 
 ```bash
-    https://robertocoliver.github.io/HTML_CSS/Modulo1/019/index.html
+    https://robertocoliver.github.io/CSS-HTML-Cursoemvideo/Modulo1/019/index.html
 ```
 Module 2 Project:
 ```bash
-    https://robertocoliver.github.io/HTML_CSS/Modulo2/035/android.html
+    https://robertocoliver.github.io/CSS-HTML-Cursoemvideo/Modulo2/035/android.html
 ```
 Module 3 Project:
 ```bash
-    https://robertocoliver.github.io/HTML_CSS/Modulo3/ex38/index.html
+    https://robertocoliver.github.io/CSS-HTML-Cursoemvideo/Modulo3/ex38/index.html
 
 ```
 Module 4 Project:
 ```bash
-   https://robertocoliver.github.io/HTML_CSS/Modulo4/ex45/index.html
+   https://robertocoliver.github.io/CSS-HTML-Cursoemvideo/Modulo4/ex45/index.html
 ```
 
 Module 4/2 Project:
 ```bash
-   https://robertocoliver.github.io/HTML_CSS/Modulo4/ex47/projeto6/index.html
+   https://robertocoliver.github.io/HTML_CSS/CSS-HTML-Cursoemvideo/ex47/projeto6/index.html
 ```
 
 ## Future Studies

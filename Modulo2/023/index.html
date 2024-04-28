@@ -5,19 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fontes em CSS</title>
     <style>
-        h1 {
-            font-size: 32px;
-            font-family: 'Times New Roman', Times, serif;
-        }
         
-        .main1 p {
+        .main1{
+            font-size: 16px;
+
+        }
+        .main1 > p {
+            font-size: 16px; /* 16px ou 1em (medida referente ao elemento pai main1)*/
+        }
+       
+       
+        .main2 {
+            font-size: 16px;
+        }
+        .main2 > p {
             font-size: 1em;
         }
 
-        main p {
+        .main3 {
             font-size: 24px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
+        .main3 > p {
+            font-size: 1em; /* Tamanho relativo ao elemento pai ( .main3 ) */
+        }
+
+
     </style>
 </head>
 <body>
@@ -26,8 +38,13 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, debitis nobis, voluptatem exercitationem voluptates, dolor explicabo molestias fugit minima odio quas delectus non officia veniam reiciendis facere laboriosam iure perspiciatis?</p>
     </main>
 
-    <main>
+    <main class="main2">
         <h1>TRABALHANDO COM FONTES PARTE 2</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, debitis nobis, voluptatem exercitationem voluptates, dolor explicabo molestias fugit minima odio quas delectus non officia veniam reiciendis facere laboriosam iure perspiciatis?</p>
+    </main>
+
+    <main class="main3">
+        <h1>TRABALHANDO COM FONTES PARTE 1</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, debitis nobis, voluptatem exercitationem voluptates, dolor explicabo molestias fugit minima odio quas delectus non officia veniam reiciendis facere laboriosam iure perspiciatis?</p>
     </main>
 </body>
